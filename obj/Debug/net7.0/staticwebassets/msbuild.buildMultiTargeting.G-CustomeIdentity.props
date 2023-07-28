@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\G-CustomeIdentity.props" />
+</Project>

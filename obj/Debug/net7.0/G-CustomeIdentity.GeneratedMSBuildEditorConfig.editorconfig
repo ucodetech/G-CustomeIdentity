@@ -9,37 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = G_CustomeIdentity
 build_property.RootNamespace = G_CustomeIdentity
-build_property.ProjectDir = c:\Users\ejekw\Source\AspProjects\G-CustomeIdentity\
+build_property.ProjectDir = C:\Users\ejekw\Source\AspProjects\G-CustomeIdentity\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\ejekw\Source\AspProjects\G-CustomeIdentity
+build_property.MSBuildProjectDirectory = C:\Users\ejekw\Source\AspProjects\G-CustomeIdentity
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/ejekw/Source/AspProjects/G-CustomeIdentity/Views/Home/Index.cshtml]
+[C:/Users/ejekw/Source/AspProjects/G-CustomeIdentity/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ejekw/Source/AspProjects/G-CustomeIdentity/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ejekw/Source/AspProjects/G-CustomeIdentity/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ejekw/Source/AspProjects/G-CustomeIdentity/Views/Home/Privacy.cshtml]
+[C:/Users/ejekw/Source/AspProjects/G-CustomeIdentity/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ejekw/Source/AspProjects/G-CustomeIdentity/Views/Shared/Error.cshtml]
+[C:/Users/ejekw/Source/AspProjects/G-CustomeIdentity/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ejekw/Source/AspProjects/G-CustomeIdentity/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ejekw/Source/AspProjects/G-CustomeIdentity/Views/Shared/_Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ejekw/Source/AspProjects/G-CustomeIdentity/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ejekw/Source/AspProjects/G-CustomeIdentity/Views/_ViewImports.cshtml]
+[C:/Users/ejekw/Source/AspProjects/G-CustomeIdentity/Views/UserAuth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckF1dGhcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ejekw/Source/AspProjects/G-CustomeIdentity/Views/UserAuth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckF1dGhcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ejekw/Source/AspProjects/G-CustomeIdentity/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ejekw/Source/AspProjects/G-CustomeIdentity/Views/_ViewStart.cshtml]
+[C:/Users/ejekw/Source/AspProjects/G-CustomeIdentity/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ejekw/Source/AspProjects/G-CustomeIdentity/Views/Shared/_Layout.cshtml]
+[C:/Users/ejekw/Source/AspProjects/G-CustomeIdentity/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-n760xdo191

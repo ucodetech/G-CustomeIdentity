@@ -1,3 +1,7 @@
 {
-    "dotnet.defaultSolution": "G-CustomeIdentity.sln"
+    "dotnet.defaultSolution": "G-CustomeIdentity.sln",
+    "emmet.includeLanguages": {
+        "cshtml": "cshtml"
+    },
+   
 }

@@ -1,7 +1,27 @@
+using G_CustomeIdentity.Data;
+using G_CustomeIdentity.Models;
+using G_CustomeIdentity.Repositories.Implementation;
+using G_CustomeIdentity.Repositories.Interface;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+//register db context
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+// register Identity
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
+
+//configure cookie
+builder.Services.ConfigureApplicationCookie(option=>option.LoginPath = "/UserAuth/Login");
+
+//register service
+builder.Services.AddScoped<IUserAuthentication, UserAuthentication>();
+
+
 
 var app = builder.Build();
 
@@ -17,7 +37,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
